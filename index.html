@@ -1,835 +1,1189 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <title>Agrivo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>CarVilla</title>
+  <link href="assets/img/Agrivo.png" rel="icon">
+  <link href="assets/img/Agrivo.png" rel="apple-touch-icon">
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bootslander
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><span>Agrivo</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+ <!-- ======= Hero Section ======= -->
+ <section id="hero">
+
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+        <div data-aos="zoom-out">
+          <h1>Enhancing The Livelihoods Of Small-Scale Paddy farmers In Sri Lanka Through Computational Approcahes For Inclusive and Equitable Agriculture 
+           </h1>
+          <!-- <h2>Improving Small-Scale Paddy Farming in Sri Lanka Through Computational Agriculture</h2> -->
+          <div class="text-center text-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+        <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+      </div>
+    </div>
+  </div>
+
+  <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+    <defs>
+      <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+    </defs>
+    <g class="wave1">
+      <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+    </g>
+    <g class="wave2">
+      <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+    </g>
+    <g class="wave3">
+      <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+    </g>
+  </svg>
+
+</section><!-- End Hero -->
+
+  <main id="main">
+
+   <!-- ======= About Section ======= -->
+   <section id="about" class="about">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+          <!-- <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a> -->
+        </div>
+
+        <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Project Scope</h2>
+            <p>Overall Project Description</p>
+          </div>
+          <p class="description">Paddy cultivation, synonymous with rice farming, constitutes a vital cornerstone of Sri
+            Lanka's food security and economic prosperity. Despite its significance, this practice
+            confronts a slew of formidable challenges, encompassing inadequate furrow irrigation
+            techniques, suboptimal fertilizer subsidy distribution, the absence of precise yield prediction
+            models, and constrained access to invaluable research insights. In a concerted effort to
+            surmount these multifaceted concerns, this research advances an innovative integrated system
+            characterized by four distinct yet interconnected components. The inaugural component
+            introduces a sophisticated application engineered for furrow irrigation planning, underpinned
+            by the formidable capabilities of support vector machine and random forest algorithms. This
+            novel irrigation planning application embarks on a mission to revolutionize rice cultivation
+            by optimizing irrigation paths, elevating the efficiency of water usage, and mitigating resource
+            wastage. The second component unveils a visionary priority-based fertilizer subsidy system,
+            driven by the powerful Gradient Boosting technique. This revolutionary system stands poised
+            to allocate agricultural subsidies with unprecedented efficiency, tailored precisely to the
+            unique needs and circumstances of individual farmers. By leveraging data-driven insights, it
+            promises to transcend the existing inefficiencies plaguing subsidy distribution, thereby
+            empowering farmers and fostering equitable agricultural progress. Turning our gaze to the
+            third component, the focus shifts towards democratizing the accessibility of research findings.
+            Through the judicious application of text summarization techniques, this component seeks to
+            distill intricate research findings into concise, comprehensible summaries. In doing so, it
+            empowers small-scale farmers with the knowledge and insights required to make informed
+            decisions, transcending language and literacy barriers. In the fourth and final component, a
+            formidable yield prediction model takes center stage, underpinned by the robust Random
+            Forest algorithm. This cutting-edge model, meticulously calibrated to accommodate climatic
+            and soil variables, assumes the pivotal role of forecasting expected yields. It not only
+            empowers farmers with the foresight required to optimize cultivation practices but also
+            augments resource management, ultimately contributing to sustainable rice production and
+            economic growth. The integrated system forged by these four components represents a
+            holistic and visionary approach to enhancing the efficiency, productivity, and profitability of
+            paddy farming in Sri Lanka.</p>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+
+  <!-- ======= Details Section ======= -->
+  <section id="details" class="details">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>Research Gap</p>
+      </div>
+
+      <p class="describe">Following areas are the research gaps found in most of the recent researches.</p>
+
+      <div class="row content">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="assets/img/irrigation.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-8 pt-4" data-aos="fade-up">
+          <h3>Furrow Irrigation</h3> 
+          <p>
+            In Sri Lanka's dry zone rice cultivation, the absence of rain-fed fields leads to heavy reliance on natural water sources. Existing studies focus on improving irrigation systems, but there's a gap in precise irrigation path identification within individual paddy fields, which results in inefficient water use.
+             A need exists for a more efficient irrigation pattern to conserve water and address specific challenges in paddy farming.
+          </p>
+        </div>
+      </div>
+
+      <div class="row content">
+        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+          <img src="assets/img/fertilizer.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+          <h3>Fertilizer Subsidy</h3>
+
+          <p>
+            Numerous research studies investigate Sri Lanka's Fertilizer Subsidy Program, providing insights into its workings and suggesting policy changes. However, these studies do not offer concrete guidance for implementation under Sri Lanka's specific conditions, particularly concerning the timely fertilizer application. 
+            This gap in research highlights the necessity for tailored strategies to address the country's present challenges.
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="row content">
+        <div class="col-md-4" data-aos="fade-right">
+          <img src="assets/img/rese.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-8 pt-5" data-aos="fade-up">
+          <h3>Research Dissemination</h3>
+         
+          <p>
+            Small-scale farmers in Sri Lanka face challenges accessing and comprehending research findings. Barriers include limited communication channels between research institutes and farmers, the technical complexity of research papers, and reliance on informal networks for information. 
+            There is a need for improved communication strategies and simplified presentation of research findings to ensure small-scale farmers can access and apply the latest agricultural knowledge effectively.
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="row content">
+        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+          <img src="assets/img/prediction.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+          <h3>Yield Prediction</h3>
        
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+          <p>
+            Paddy yield prediction is essential for food security and environmental sustainability in Sri Lanka. Research studies have explored the impact of climate variables on yield predictions, but non-climatic factors like soil fertility and market demand are often overlooked. 
+            There is a need for more accurate prediction models that consider both climatic and non-climatic variables, with a focus on improving accessibility to rural farmers.
+          </p>
+          
+        </div>
+      </div>
 
-        <!--linear icon css-->
-		<link rel="stylesheet" href="assets/css/linearicons.css">
+    </div>
+  </section><!-- End Details Section -->
 
-        <!--flaticon.css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+   <!-- ======= Research Problems ======= -->
+   <section id="researchProblem" class="researchProblem">
+    <div class="container">
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+      <div class="section-title">
+        <p>Research Problems</p>
+      </div>
 
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-water"></i></div>
+           
+            <p class="description">How to determine efficient furrow irrigation paths in a paddy field</p>
+          </div>
+        </div>
 
-    </head>
-	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-	
-		<!--welcome-hero start -->
-		<section id="home" class="welcome-hero">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-cookie"></i></div>
+            
+            <p class="description">How to allocate fertilizer subsidy to farmers with the highest need for fertilizer</p>
+          </div>
+        </div>
 
-			<!-- top-area Start -->
-			<div class="top-area">
-				<div class="header-area">
-					<!-- Start Navigation -->
-				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-text-fill"></i></div>
+       
+            <p class="description">How to distribute research findings to small-scale paddy farmers effectively</p>
+          </div>
+        </div>
 
-				        <div class="container">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-bar-graph"></i></div>
+            
+            <p class="description">How to determine the expected yield of a given area accurately</p>
+          </div>
+        </div>
 
-				            <!-- Start Header Navigation -->
-				            <div class="navbar-header">
-				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-				                    <i class="fa fa-bars"></i>
-				                </button>
-				                <a class="navbar-brand" href="index.html">carvilla<span></span></a>
+      </div>
 
-				            </div><!--/.navbar-header-->
-				            <!-- End Header Navigation -->
+    </div>
+  </section><!-- End Research Problem Section -->
 
-				            <!-- Collect the nav links, forms, and other content for toggling -->
-				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class=" scroll active"><a href="#home">home</a></li>
-				                    <li class="scroll"><a href="#service">service</a></li>
-				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
-				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
-				                    <li class="scroll"><a href="#brand">brands</a></li>
-				                    <li class="scroll"><a href="#contact">contact</a></li>
-				                </ul><!--/.nav -->
-				            </div><!-- /.navbar-collapse -->
-				        </div><!--/.container-->
-				    </nav><!--/nav-->
-				    <!-- End Navigation -->
-				</div><!--/.header-area-->
-			    <div class="clearfix"></div>
+   <!-- ======= Solution Section ======= -->
+   <section id="details" class="details">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <p>Proposed Solution</p>
+      </div>
 
-			</div><!-- /.top-area-->
-			<!-- top-area End -->
+      <div class="row content">
+        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+          <img src="assets/img/solution.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+          <p>
+            Agrivo, our comprehensive agricultural solution, combines multiple technologies to address the diverse needs of small-scale paddy farmers in Sri Lanka. The Furrow Irrigation Component leverages GeoJSON, GeoLib, and Mapbox to streamline furrow irrigation management, ensuring efficient water distribution. In the Fertilizer Priority Distribution Component, Machine Learning and supervised learning classifier models are applied to create a priority-based system for timely fertilizer subsidies. The Research Dissemination Component utilizes Spacy, NLP (Natural Language Processing), NLTK (Natural Language Toolkit), and the BART model to extract, summarize, and deliver research findings effectively.
+             The Yield Prediction Component employs machine learning techniques, including supervised learning regressors, to provide farmers with accurate crop yield predictions based on climate and soil data, enabling them to optimize their agricultural practices. With these integrated components, Agrivo empowers small-scale farmers with the tools and knowledge they need to enhance their productivity and promote sustainable agriculture.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </section><!-- End Solution Section -->
 
-			<div class="container">
-				<div class="welcome-hero-txt">
-					<h2>get your desired car in resonable price</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore   magna aliqua. 
-					</p>
-					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
-				</div>
-			</div>
+  <!-- ======= Objectives Section ======= -->
+  <section id="objectives" class="objectives">
+    <div class="container">
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="model-search-content">
-							<div class="row">
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									<div class="single-model-search">
-										<h2>select year</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
+      <div class="section-title" data-aos="fade-up">
+       
+        <p>Research Objectives</p>
+      </div>
 
-											  	<option value="default">year</option><!-- /.option-->
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+          <div class="icon-box icon-box-pink">
+            <div class="icon"><i class="bi bi-1-square"></i></div>
+            <h4 class="title">Introducing an efficient furrow irrigation management model for paddy cultivation</h4>
+            <p class="description">By leveraging advanced technology and data-driven insights, the system seeks to offer a sustainable solution that empowers farmers to make informed 
+              decisions and promote prosperous agricultural practices in the context of furrow irrigation</p>
+          </div>
+        </div>
 
-											  	<option value="2018">2018</option><!-- /.option-->
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box icon-box-cyan">
+            <div class="icon"><i class="bi bi-2-square"></i></div>
+            <h4 class="title">Ensuring timely application of fertilizer by introducing a priority-based distribution for the fertilizer subsidy program</h4>
+            <p class="description">This system prioritizes farmers in need and ensures they receive timely access to fertilizers, thus bolstering agricultural productivity and food security. The priority-based approach aims to efficiently allocate resources,
+               benefitting small-scale farmers and promoting sustainable agriculture in the region</p>
+          </div>
+        </div>
 
-											  	<option value="2017">2017</option><!-- /.option-->
-											  	<option value="2016">2016</option><!-- /.option-->
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box icon-box-green">
+            <div class="icon"><i class="bi bi-3-square"></i></div>
+            <h4 class="title">Effectively distribute research findings to small-scale paddy farmers to enhance their productivity</h4>
+            <p class="description">The primary goal is to establish a robust system for disseminating research findings to small-scale paddy farmers in a manner that is accessible and beneficial to them. This initiative aims to bridge the knowledge gap and provide farmers with the
+               latest research insights, ultimately improving their productivity in paddy cultivation</p>
+          </div>
+        </div>
 
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-									<div class="single-model-search">
-										<h2>body style</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box icon-box-blue">
+            <div class="icon"><i class="bi bi-4-square"></i></div>
+            <h4 class="title">Introducing an effective yield prediction system for small-scale farmers use</h4>
+            <p class="description">This system leverages historical data, advanced algorithms, and predictive models to provide farmers with accurate yield forecasts. 
+              By doing so, it empowers farmers to make informed decisions, </p>
+          </div>
+        </div>
 
-											  	<option value="default">style</option><!-- /.option-->
+      </div>
 
-											  	<option value="sedan">sedan</option><!-- /.option-->
+    </div>
+  </section><!-- End Objectives Section -->
 
-											  	<option value="van">van</option><!-- /.option-->
-											  	<option value="roadster">roadster</option><!-- /.option-->
+  <!-- ======= Methodology Section ======= -->
+  <section id="methodology" class="methodology">
+    <div class="container">
+      
+      <div class="section-title" data-aos="fade-up">
+       
+        <p>Methodology</p>
+      </div>
 
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-								</div>
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									<div class="single-model-search">
-										<h2>select make</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+          <!-- <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a> -->
+        </div>
 
-											  	<option value="default">make</option><!-- /.option-->
+        <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+          
+          <p class="description">The overall system aims to address pressing challenges in paddy cultivation
+            in Sri Lanka through a holistic approach consisting of four interconnected research
+            components. Each component is meticulously designed to tackle specific issues faced
+            by small-scale paddy farmers and contribute to the sustainable development of the
+            agriculture sector in the region.</p>
 
-											  	<option value="toyota">toyota</option><!-- /.option-->
+            <p class="component">1. Mobile Application for Efficient Furrow Irrigation Planning</p>
 
-											  	<option value="holden">holden</option><!-- /.option-->
-											  	<option value="maecedes-benz">maecedes-benz.</option><!-- /.option-->
+            <p class="description">The first research component is centered around the development of a mobile
+              application tailored to the needs of paddy farmers. This innovative tool
+              empowers farmers to plan furrow irrigation efficiently. Water management is
+              a critical concern in paddy cultivation, and this component addresses it by
+              providing a user-friendly interface that allows farmers to schedule and
+              optimize their irrigation practices. By enhancing water utilization and
+              minimizing wastage, this component not only conserves a precious resource
+              but also promotes sustainable farming practices.</p>
 
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-									<div class="single-model-search">
-										<h2>car condition</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
+              <p class="component">2. Priority-Based Distribution in Fertilizer Subsidy Program</p>
 
-											  	<option value="default">condition</option><!-- /.option-->
+              <p class="description">The second research component introduces a data-driven approach to enhance
 
-											  	<option value="something">something</option><!-- /.option-->
+                the effectiveness of the fertilizer subsidy program. By incorporating priority-
+                based distribution mechanisms, this component ensures that farmers with the
+                
+                greatest need receive timely access to subsidized fertilizers. This not only
+                optimizes the allocation of resources but also helps small-scale farmers
+                improve the quality of their crops, ultimately leading to higher yields and
+                economic benefits.</p>
 
-											  	<option value="something">something</option><!-- /.option-->
-											  	<option value="something">something</option><!-- /.option-->
+              <p class="component">3. Research Dissemination for Informed Decision-Making</p>
 
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-								</div>
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									<div class="single-model-search">
-										<h2>select model</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
+              <p class="description">The third research component focuses on improving the dissemination of
 
-											  	<option value="default">model</option><!-- /.option-->
+                agricultural research findings to small-scale farmers. Informed decision-
+                making is a cornerstone of successful farming, and this component strives to
+                
+                bridge the gap between complex research and accessible knowledge. Through
+                the use of advanced Natural Language Processing (NLP) models, translations,
+                and a user-friendly mobile application, small-scale farmers gain access to the
+                latest agricultural insights, fostering better farming practices and increased
+                agricultural productivity.</p>
 
-											  	<option value="kia-rio">kia-rio</option><!-- /.option-->
+                <p class="component">4. Mobile-Based Yield Prediction Considering Environmental Factors</p>
 
-											  	<option value="mitsubishi">mitsubishi</option><!-- /.option-->
-											  	<option value="ford">ford</option><!-- /.option-->
+                <p class="description">The fourth research component utilizes mobile technology to predict farmers'
+                  expected yield. By integrating climatic and non-climatic variables, this
+                  component offers a powerful tool for farmers to anticipate and plan for crop
+                  yields accurately. Climate variability is a significant challenge in agriculture,
+                  and this component equips farmers with valuable information to adapt and
+                  mitigate risks effectively.</p>
 
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-									<div class="single-model-search">
-										<h2>select price</h2>
-										<div class="model-select-icon">
-											<select class="form-control">
+                  <p class="description">Collectively, these four research components synergize to enhance the
+                    efficiency, productivity, and profitability of paddy farming in Sri Lanka. By
+                    
+              
+                    
+                    addressing critical aspects of irrigation, fertilizer distribution, research
+                    dissemination, and yield prediction, the system not only empowers farmers but
+                    also contributes to the long-term sustainability of agriculture in the region.
+                    Through technology-driven solutions and data-informed decision-making, the
+                    
+                    research project seeks to create a positive impact on the livelihoods of small-
+                    scale paddy farmers and the agricultural landscape of Sri Lank.</p>
+        </div>
+      </div>
 
-											  	<option value="default">price</option><!-- /.option-->
+    </div>
+  </section><!-- End Methodology Section -->
 
-											  	<option value="$0.00">$0.00</option><!-- /.option-->
+<!-- Document Section -->
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
 
-											  	<option value="$0.00">$0.00</option><!-- /.option-->
-											  	<option value="$0.00">$0.00</option><!-- /.option-->
+      <div class="section-title">
+        <h2>Downloads</h2>
+        <p>Documents</p>
+      </div>
 
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
-								</div>
-								<div class="col-md-2 col-sm-12">
-									<div class="single-model-search text-center">
-										<button class="welcome-btn model-search-btn" onclick="window.location.href='#'">
-											search
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+      <p class="downloadDes">You can find all documents related to Agrivo project below</p>
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+      <div class="row">
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Topic Assessments</h4>
+            <p class="subTopic">Submitted on 2023-05-14 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://drive.google.com/file/d/1IW_Rx6D0wDmGT0OFxDq3oUmDUpPj726D/view?usp=sharing" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		<!--service start -->
-		<section id="service" class="service">
-			<div class="container">
-				<div class="service-content">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item">
-								<div class="single-service-icon">
-									<i class="flaticon-car"></i>
-								</div>
-								<h2><a href="#">largest dealership <span> of</span> car</a></h2>
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item">
-								<div class="single-service-icon">
-									<i class="flaticon-car-repair"></i>
-								</div>
-								<h2><a href="#">unlimited repair warrenty</a></h2>
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.  
-								</p>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="single-service-item">
-								<div class="single-service-icon">
-									<i class="flaticon-car-1"></i>
-								</div>
-								<h2><a href="#">insurence support</a></h2>
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia. 
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!--/.container-->
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Project Charter</h4>
+            <p class="subTopic">Submitted on 2023-05-14 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://drive.google.com/file/d/1dpxTGQ2eClwPjg88K_LteSHAozCORIpf/view?usp=sharing" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		</section><!--/.service-->
-		<!--service end-->
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Project Proposal</h4>
+            <p class="subTopic">Submitted on 2023-05-05 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Individual</p>
+              <div class="button">
+                <a href="https://drive.google.com/drive/folders/16PXHer9FrOJqU8H8Kzos9-cCLbbfaYyk" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		<!--new-cars start -->
-		<section id="new-cars" class="new-cars">
-			<div class="container">
-				<div class="section-header">
-					<p>checkout <span>the</span> latest cars</p>
-					<h2>newest cars</h2>
-				</div><!--/.section-header-->
-				<div class="new-cars-content">
-					<div class="owl-carousel owl-theme" id="new-cars-carousel">
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm1.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">chevrolet camaro <span> za100</span></a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm2.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">BMW series-3 wagon</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->	
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-						<div class="new-cars-item">
-							<div class="single-new-cars-item">
-								<div class="row">
-									<div class="col-md-7 col-sm-12">
-										<div class="new-cars-img">
-											<img src="assets/images/new-cars-model/ncm3.png" alt="img"/>
-										</div><!--/.new-cars-img-->
-									</div>
-									<div class="col-md-5 col-sm-12">
-										<div class="new-cars-txt">
-											<h2><a href="#">ferrari 488 superfast</a></h2>
-											<p>
-												Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-											</p>
-											<p class="new-cars-para2">
-												Sed ut pers unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. 
-											</p>
-											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
-												view details
-											</button>
-										</div><!--/.new-cars-txt-->	
-									</div><!--/.col-->
-								</div><!--/.row-->
-							</div><!--/.single-new-cars-item-->
-						</div><!--/.new-cars-item-->
-					</div><!--/#new-cars-carousel-->
-				</div><!--/.new-cars-content-->
-			</div><!--/.container-->
+     
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Status Documents I</h4>
+            <p class="subTopic">Submitted on 2023-05-21 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Individual</p>
+              <div class="button">
+                <a href="https://drive.google.com/drive/folders/1Vzk4fBfoVseTJ8Qk1JdfHRxuNzWbLwWa" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		</section><!--/.new-cars-->
-		<!--new-cars end -->
+      </div>
 
-		<!--featured-cars start -->
-		<section id="featured-cars" class="featured-cars">
-			<div class="container">
-				<div class="section-header">
-					<p>checkout <span>the</span> featured cars</p>
-					<h2>featured cars</h2>
-				</div><!--/.section-header-->
-				<div class="featured-cars-content">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc1.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">BMW 6-series gran coupe</a></h2>
-									<h3>$89,395</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc2.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">chevrolet camaro <span>wmv20</span></a></h2>
-									<h3>$66,575</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc3.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">lamborghini <span>v520</span></a></h2>
-									<h3>$125,250</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc4.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">audi <span> a3</span> sedan</a></h2>
-									<h3>$95,500</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc4.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">infiniti <span>z5</span></a></h2>
-									<h3>$36,850</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc5.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">porsche <span>718</span> cayman</a></h2>
-									<h3>$48,500</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc7.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#"><span>bmw 8-</span>series coupe</a></h2>
-									<h3>$56,000</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6">
-							<div class="single-featured-cars">
-								<div class="featured-img-box">
-									<div class="featured-cars-img">
-										<img src="assets/images/featured-cars/fc8.png" alt="cars">
-									</div>
-									<div class="featured-model-info">
-										<p>
-											model: 2017
-											<span class="featured-mi-span"> 3100 mi</span> 
-											<span class="featured-hp-span"> 240HP</span>
-											 automatic
-										</p>
-									</div>
-								</div>
-								<div class="featured-cars-txt">
-									<h2><a href="#">BMW <span> x</span>series-6</a></h2>
-									<h3>$75,800</h3>
-									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><!--/.container-->
+      <div class="row" id="row2">
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box"> 
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Status Documents II</h4>
+            <p class="subTopic">Submitted on 2023-09-01 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Individual</p>
+              <div class="button">
+                <a href="https://drive.google.com/drive/folders/1wskVIJ6PwZ3mmRk2xGS1JtxEXhtmgku5" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		</section><!--/.featured-cars-->
-		<!--featured-cars end -->
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Research Paper</h4>
+            <p class="subTopic">Submitted on 2023-11-01 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://drive.google.com/file/d/1KQyyHkMLBNr1SpYG7-w6eCM-XuyHVTQV/view?usp=sharing" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		<!-- clients-say strat -->
-		<section id="clients-say"  class="clients-say">
-			<div class="container">
-				<div class="section-header">
-					<h2>what our clients say</h2>
-				</div><!--/.section-header-->
-				<div class="row">
-					<div class="owl-carousel testimonial-carousel">
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="assets/images/clients/c1.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">tomas lili</a></h2>
-										<h4>new york</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="assets/images/clients/c2.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">romi rain</a></h2>
-										<h4>london</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-						<div class="col-sm-3 col-xs-12">
-							<div class="single-testimonial-box">
-								<div class="testimonial-description">
-									<div class="testimonial-info">
-										<div class="testimonial-img">
-											<img src="assets/images/clients/c3.png" alt="image of clients person" />
-										</div><!--/.testimonial-img-->
-									</div><!--/.testimonial-info-->
-									<div class="testimonial-comment">
-										<p>
-											Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam, eaque ipsa quae ab illo inventore verit. 
-										</p>
-									</div><!--/.testimonial-comment-->
-									<div class="testimonial-person">
-										<h2><a href="#">john doe</a></h2>
-										<h4>washington</h4>
-									</div><!--/.testimonial-person-->
-								</div><!--/.testimonial-description-->
-							</div><!--/.single-testimonial-box-->
-						</div><!--/.col-->
-					</div><!--/.testimonial-carousel-->
-				</div><!--/.row-->
-			</div><!--/.container-->
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-pdf"></i></div>
+            <h4 class="topic">Final Report</h4>
+            <p class="subTopic">Submitted on 2023-09-18 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+            <div class="rowss">
+              <div class="group">
+                <p>Group</p>
+                <div class="button2">
+                  <a href="https://drive.google.com/file/d/13A8PdWdksiLVL2_OvpKy7oU8nwl1msDW/view?usp=sharing" class="btn2">Download</a>
+                </div>
+              </div>
+            
+              <div class="group">
+                <p>Individual</p>
+                <div class="button2">
+                  <a href="https://drive.google.com/drive/folders/16qPun2KM5ILRP-CkjAOI0JxBcVHU8K1E" class="btn2">Download</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
 
-		</section><!--/.clients-say-->	
-		<!-- clients-say end -->
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-image"></i></div>
+            <h4 class="topic">Poster</h4>
+            <p class="subTopic">Submitted on 2023-11-01 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://drive.google.com/file/d/1VLL9tH6wza6KjGFdyWy8I78x4EUMwl2x/view?usp=sharing" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		<!--brand strat -->
-		<section id="brand"  class="brand">
-			<div class="container">
-				<div class="brand-area">
-					<div class="owl-carousel owl-theme brand-item">
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br1.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br2.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br3.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br4.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br5.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-
-						<div class="item">
-							<a href="#">
-								<img src="assets/images/brand/br6.png" alt="brand-image" />
-							</a>
-						</div><!--/.item-->
-					</div><!--/.owl-carousel-->
-				</div><!--/.clients-area-->
-
-			</div><!--/.container-->
-
-		</section><!--/brand-->	
-		<!--brand end -->
-
-		<!--blog start -->
-		<section id="blog" class="blog"></section><!--/.blog-->
-		<!--blog end -->
-
-		<!--contact start-->
-		<footer id="contact"  class="contact">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">
-						<div class="col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<div class="footer-logo">
-									<a href="index.html">carvilla</a>
-								</div>
-								<p>
-									Ased do eiusm tempor incidi ut labore et dolore magnaian aliqua. Ut enim ad minim veniam.
-								</p>
-								<div class="footer-contact">
-									<p>info@themesine.com</p>
-									<p>+1 (885) 2563154554</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-2 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>about devloon</h2>
-								<ul>
-									<li><a href="#">about us</a></li>
-									<li><a href="#">career</a></li>
-									<li><a href="#">terms <span> of service</span></a></li>
-									<li><a href="#">privacy policy</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-xs-12">
-							<div class="single-footer-widget">
-								<h2>top brands</h2>
-								<div class="row">
-									<div class="col-md-7 col-xs-6">
-										<ul>
-											<li><a href="#">BMW</a></li>
-											<li><a href="#">lamborghini</a></li>
-											<li><a href="#">camaro</a></li>
-											<li><a href="#">audi</a></li>
-											<li><a href="#">infiniti</a></li>
-											<li><a href="#">nissan</a></li>
-										</ul>
-									</div>
-									<div class="col-md-5 col-xs-6">
-										<ul>
-											<li><a href="#">ferrari</a></li>
-											<li><a href="#">porsche</a></li>
-											<li><a href="#">land rover</a></li>
-											<li><a href="#">aston martin</a></li>
-											<li><a href="#">mersedes</a></li>
-											<li><a href="#">opel</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-3 col-sm-6">
-							<div class="single-footer-widget">
-								<h2>news letter</h2>
-								<div class="footer-newsletter">
-									<p>
-										Subscribe to get latest news  update and informations
-									</p>
-								</div>
-								<div class="hm-foot-email">
-									<div class="foot-email-box">
-										<input type="text" class="form-control" placeholder="Add Email">
-									</div><!--/.foot-email-box-->
-									<div class="foot-email-subscribe">
-										<span><i class="fa fa-arrow-right"></i></span>
-									</div><!--/.foot-email-icon-->
-								</div><!--/.hm-foot-email-->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-copyright">
-					<div class="row">
-						<div class="col-sm-6">
-							<p>
-								&copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine</a>.
-							</p><!--/p-->
-						</div>
-						<div class="col-sm-6">
-							<div class="footer-social">
-								<a href="#"><i class="fa fa-facebook"></i></a>	
-								<a href="#"><i class="fa fa-instagram"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-pinterest-p"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a>	
-							</div>
-						</div>
-					</div>
-				</div><!--/.footer-copyright-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.contact-->
-		<!--contact end-->
+      </div>
 
 
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+      <p class="presentation">Presentations</p>
+      <p class="downloadDes">You can find all presentations related to Agrivo project below</p>
 
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
+      <div class="row">
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-ppt"></i></div>
+            <h4 class="topic">Project Proposal</h4>
+            <p class="subTopic">Submitted on 2023-05-03 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://docs.google.com/presentation/d/1b2VOpsrqIfyTelgIL03Gv_pIt8na4JRp/edit#slide=id.p1" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-ppt"></i></div>
+            <h4 class="topic">Progress Presentation I</h4>
+            <p class="subTopic">Submitted on 2023-06-18 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://docs.google.com/presentation/d/1fIEsEuNCYEjRHzcwV0mveZBaOvsBiwLK/edit#slide=id.p1" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-ppt"></i></div>
+            <h4 class="topic">Progress Presentation II</h4>
+            <p class="subTopic">Submitted on 2023-09-05 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://drive.google.com/file/d/1qxBbkhjoIzIcArmHigTfWSfZdK7BJIja/view?usp=sharing" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
 
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+        <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-file-earmark-ppt"></i></div>
+            <h4 class="topic">Final Presentation</h4>
+            <p class="subTopic">Submitted on 2023-10-31 <span class="spaces">dolor in reprehenderit in voluptate velit esse </span></p> 
+              <p class="group">Group</p>
+              <div class="button">
+                <a href="https://docs.google.com/presentation/d/1nkGJsOL03qaR2Vgxxz0PtnP0P4uVJjM4/edit#slide=id.p1" class="btn">Download</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-in">User Interfaces</h2>
+          <p data-aos="fade-in">What We Have Done</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li> -->
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-mobile">Mobile</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/reg.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/reg.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="User Sign Up"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>User Sign Up</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/signIn.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/signIn.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="User Sign In"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>User Sign In</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/paddyDetails.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/paddyDetails.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Paddy Field Details"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Paddy Field Details</h4>
+              </div>
+            </div>
+          </div>
+ 
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/paddyDrawing1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/paddyDrawing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Paddy Field Irrigation Drawing Tool"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Paddy Field Irrigation Drawing Tool</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/paddyDrawing2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/paddyDrawing2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Paddy Field Irrigation Drawing Tool "><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Paddy Field Irrigation Drawing Tool</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/addPaddy.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/addPaddy.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add New Paddy Field"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Add New Paddy Field</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/research.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/research.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Research Findings"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Research Findings</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/addResearch.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/addResearch.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Add New Research Finding"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Add New Research Finding</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/preview.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/preview.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Summarized Content Preview"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Summarized Content Preview</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/priority1.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/priority1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Priority Distribution Schedule Guidelines"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Priority Distribution Schedule Guidelines</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/priority2.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/priority2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Priority Distribution Schedule"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Priority Distribution Schedule</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/priority3.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/priority3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Finalized Time Schedule"><i class="bi bi-plus"></i></a>
+              </div>
+              <div class="portfolio-info">
+                <h4>Finalized Time Schedule</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/login.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/login.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Login"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Login</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rc.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/rc.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Research Categories"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Research Categories</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rp.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/rp.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Summarized Research Papers"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Summarized Research Papers</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sc.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/sc.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Summarized Content"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Summarized Content</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/notifi.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/notifi.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Notifications"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Notifications</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/paddy.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/paddy.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Paddy Fields Details"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Paddy Fields Details</h4>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/result.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/result.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Predicted Results"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Predicted Results</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gn.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/gn.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="GN Prediction"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>GN Prediction</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/result.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/result.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Result Summary"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Result Summary</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/summary.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/summary.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Feedback"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>Feedback</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/up2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/up2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="User Profile"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>User Profile</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/up.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="User Edit Profile"><i class="bi bi-plus"></i></a> 
+              </div>
+              <div class="portfolio-info">
+                <h4>User Edit Profile</h4>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2 data-aos="fade-in">Team</h2>
+            <p data-aos="fade-in">Meet Our Team</p>
+          </div>
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/MsDinuka.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Ms. Dinuka Wijendra</h4>
+                  <span>Supervisor</span>
+                  <p>Sri Lanka Institute of Information Technology </p>
+                  <p class="department">Department of Information Technology</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/samithav.png" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Samitha Vidanaarachchi</h4>
+                  <span>Co-Supervisor</span>
+                  <p>Sri Lanka Institute of Information Technology </p>
+                  <p class="department">Department of Computer Science & Software Engineering</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/sonal.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Jayawardana S.U</h4>
+                  <span>Group Leader</span>
+                  <p>Sri Lanka Institute of Information Technology </p>
+                  <p class="department">Department of Computer Science & Software Engineering</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/dulan.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Bamunuge D.R</h4>
+                  <span>Group Member</span>
+                  <p>Sri Lanka Institute of Information Technology </p>
+                  <p class="department">Department of Computer Science & Software Engineering</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/kaveen.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Wijethunga A.M.D.K.S</h4>
+                  <span>Group Member</span>
+                  <p>Sri Lanka Institute of Information Technology </p>
+                  <p class="department">Department of Computer Science & Software Engineering</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/chamodh.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Abeygoonawardana G.A.C.I</h4>
+                  <span>Group Member</span>
+                  <p>Sri Lanka Institute of Information Technology </p>
+                  <p class="department">Department of Computer Science & Software Engineering</p>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- End Team Section -->
+
+   
+
+  </main><!-- End #main -->
+
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Agrivo</h3>
+              <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Agrivo</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+        Designed by <a href="">Team Agrivo</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
