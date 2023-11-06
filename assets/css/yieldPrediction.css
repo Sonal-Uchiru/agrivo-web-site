@@ -858,7 +858,8 @@ body {
   .objectives .description {
     font-size: 15px;
     line-height: 28px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    
   }
   
   .objectives .icon-box-pink .icon i {
@@ -1039,10 +1040,15 @@ body {
   }
   
   .about .video-box {
-    background: url("../img/fertilizer/ferti.jpg") center center no-repeat;
+    background: url("../img/prediction/yield1.png") center center no-repeat;
     background-size: contain;
     min-height: 300px;
  
+  }
+
+  .about .description2{
+    font-weight: 700;
+    color: #000;
   }
 
 
@@ -1303,7 +1309,7 @@ body {
   }
   
   .methodology .video-box {
-    background: url("../img/fertilizer/ferti5.png") center center no-repeat;
+    background: url("../img/prediction/yieldnew.png") center center no-repeat;
     background-size: contain;
     min-height: 300px;
   }
@@ -1444,7 +1450,7 @@ body {
     line-height: 28px;
     margin-bottom: 0;
     margin-top: 10px;
-    text-align: justify;
+    text-align: start;
     font-weight: 600;
   }
   
@@ -1534,8 +1540,8 @@ body {
   }
   
   
-  .researchGap .content p:last-child {
-    margin-bottom: 0;
+  .researchGap .content p {
+    margin-bottom: 5;
     text-align: justify;
   }
 
