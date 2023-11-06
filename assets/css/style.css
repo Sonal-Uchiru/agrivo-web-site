@@ -620,72 +620,12 @@ section {
   color: #010483;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #fafaff;
-  min-height: 40px;
-  margin-top: 80px;
-}
 
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 64px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
 
 /*--------------------------------------------------------------
-# Services
+# Documents
 --------------------------------------------------------------*/
-.services .icon-box {
+.documents .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
@@ -694,36 +634,36 @@ section {
 
 }
 
-.services .icon-box .icon {
+.documents .icon-box .icon {
   margin-bottom: 10px;
 }
 
-.services .icon-box .icon i {
+.documents .icon-box .icon i {
   color: #e93305;
   font-size: 36px;
   transition: 0.3s;
 }
 
-.services .icon-box h4 {
+.documents .icon-box h4 {
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 22px;
 }
 
-.services .rowss {
+.documents .rowss {
   display: flex;
   justify-content:space-around; /* Adjust this as needed */
   align-items: center;
   flex-wrap: wrap; /* To handle responsive behavior */
 }
 
-.services .button2{
+.documents .button2{
   margin-top: 27px;
   text-align: center;
 }
 
 
-.services .btn2{
+.documents .btn2{
   height: 50px;
   padding: 10px;
   border-radius: 5px;
@@ -735,12 +675,12 @@ section {
   justify-content: center;
 }
 
-.services .btn2:hover{
+.documents .btn2:hover{
   background-color: #02a972;
 }
 
 
-.services .subTopic{
+.documents .subTopic{
   line-height: 20px;
   font-size: 14px;
   color: grey;
@@ -748,17 +688,17 @@ section {
   font-weight: 600;
 }
 
-.services .icon-box:hover {
+.documents .icon-box:hover {
   transform: translateY(-10px);
 }
 
 
-.services #row2{
+.documents #row2{
   margin-top: 25px;
 }
 
 
-.services .group{
+.documents .group{
   font-weight: 600;
   margin-top: 10px;
   color: #010483;
@@ -766,13 +706,13 @@ section {
   text-align: center;
 }
 
-.services .downloadDes{
+.documents .downloadDes{
   margin-top: -10px;
   margin-bottom: 35px;
   font-size: 16px;
 }
 
-.services .presentation{
+.documents .presentation{
   margin-top: 55px;
   font-size: 36px;
   font-weight: 700;
@@ -781,16 +721,16 @@ section {
   color: #010483;
 }
 
-.services .spaces{
+.documents .spaces{
   color: transparent;
 }
 
-.services .button{
+.documents .button{
   margin-top: 20px;
   text-align: center;
 }
 
-.services .btn{
+.documents .btn{
   height: 40px;
   width: 160px;
   background-color: #03C988;
@@ -799,19 +739,19 @@ section {
   justify-content: center;
 }
 
-.services .btn:hover{
+.documents .btn:hover{
  
   background-color: #02a972;
  
 }
 
-.services .topic{
+.documents .topic{
   color: #37517e;
   transition: ease-in-out 0.3s;
   font-weight: bold;
 }
 
-.services .topic:hover{
+.documents .topic:hover{
   color: #03C988;
 }
 
@@ -918,6 +858,8 @@ section {
   border-radius: 8px;
   box-shadow: 0px 0 25px rgba(0,0,0, 0.1);
 }
+
+
 
 .individual .details .icon {
   margin: 0;
@@ -1038,7 +980,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/vector1.jpg") center center no-repeat;
+  background: url("../img/main.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -1056,43 +998,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background: #f5f5ff;
-  transition: ease-in-out 0.3s;
-}
 
-.features .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
-
-.features .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-}
-
-.features .icon-box h3 a {
-  color: #010483;
-  transition: ease-in-out 0.3s;
-}
-
-.features .icon-box h3 a:hover {
-  color: #01036f;
-}
-
-.features .icon-box:hover {
-  background: #ebebff;
-}
 
 
 /*--------------------------------------------------------------
@@ -1320,54 +1226,6 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  background: #f5f5ff;
-  padding: 70px 0 60px;
-}
-
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #fff;
-}
-
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 20px;
-  background: #1acc8d;
-  padding: 12px;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0;
-  width: 48px;
-  height: 48px;
-}
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #010483;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-}
-
 
 /*--------------------------------------------------------------
 # Research Problems
@@ -1502,142 +1360,6 @@ section {
 
 
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #3f43fd;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #f0f0ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #010483;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #0205a1;
-}
-
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: #1acc8d;
-  color: #fff;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #1acc8d;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 
 /*--------------------------------------------------------------
@@ -1646,11 +1368,13 @@ section {
 .team {
   background: #fff;
   padding: 60px 0;
+
 }
 
 .team .member {
   overflow: hidden;
   text-align: center;
+  margin-top: 15px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
