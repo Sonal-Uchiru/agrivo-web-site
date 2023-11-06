@@ -48,7 +48,7 @@
       <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
           <h1>
-            <button type="button" class="backButton" onclick="history.back()">
+            <button type="button" class="backButton" onclick="window.location.href='index.html';">
               <i class="bi bi-arrow-left-short" style="color: white"></i>
             </button>
 
@@ -58,7 +58,7 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#">Home</a></li>
+            <li><a class="nav-link scrollto active" href="#">Research Findings Dissemination</a></li>
 
             <li class="dropdown">
               <a href="#"
@@ -749,9 +749,7 @@
             <div
               class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
               data-aos="fade-right"
-            >
-              <!-- <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a> -->
-            </div>
+            ></div>
 
             <div
               class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
@@ -767,7 +765,25 @@
                 facilitate the seamless and accessible sharing of agricultural
                 research insights with the target audience, enabling them to
                 harness the latest knowledge for enhanced farming practices and,
-                ultimately, greater agricultural productivity
+                ultimately, greater agricultural productivity.
+              </p>
+
+              <p class="description">
+                The system diagram depicted in the figure gives significant
+                attention to the research findings dissemination component and
+                its intricate connections with various system elements. The
+                research findings dissemination system offers a mobile
+                application for farmers to access research findings easily. A
+                web application aids authorized officers in uploading and
+                managing publications. The Flask server plays a central role in
+                the system, with components like the controller managing
+                requests and the service processing data. The PDF Processing and
+                NLP Summarization Component extracts insights from research
+                papers, while the Summarization Component distills the
+                information into concise and readable summaries. The Node server
+                ensures data persistence and retrieval, while the Flask server
+                simplifies summarization. User input guides the process, leading
+                to accessible research summaries.
               </p>
 
               <p class="component">1. Data Collection and Analysis</p>
@@ -870,88 +886,51 @@
         <div class="container">
           <div class="section-title" data-aos="fade-up">
             <h2>Technologies</h2>
-            <p>Technologies Used</p>
+            <p>Special Technologies Used</p>
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-4 col-6 col-6">
               <div class="icon-box">
                 <img
-                  src="assets/img/technologies/react.png"
+                  src="assets/img/researchDissemination/learn.png"
                   class="tech"
                   alt="Italian Trulli"
                 />
-                <h3><a>React</a></h3>
+                <h3><a>scikit-learn (sklearn)</a></h3>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6">
               <div class="icon-box">
                 <img
-                  src="assets/img/technologies/python.png"
+                  src="assets/img/researchDissemination/hf.png"
                   class="tech"
                   alt="Italian Trulli"
                 />
-                <h3><a>Python</a></h3>
+                <h3><a>Sentence Transformers</a></h3>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 mt-4 mt-md-0">
               <div class="icon-box">
                 <img
-                  src="assets/img/technologies/node.png"
+                  src="assets/img/researchDissemination/pdf.png"
                   class="tech"
                   alt="Italian Trulli"
                 />
-                <h3><a>Node.js</a></h3>
+                <h3><a>PyPDF2</a></h3>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-6 mt-4 mt-lg-0">
               <div class="icon-box">
                 <img
-                  src="assets/img/technologies/jupyter.png"
+                  src="assets/img/researchDissemination/nltk.png"
                   class="tech"
                   alt="Italian Trulli"
                 />
-                <h3><a>Jupyter Notebook</a></h3>
+                <h3><a>nltk (Natural Language Toolkit)</a></h3>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-6 mt-4">
-              <div class="icon-box">
-                <img
-                  src="assets/img/technologies/mongo.png"
-                  class="tech"
-                  alt="Italian Trulli"
-                />
-                <h3><a>MongoDB</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-6 mt-4">
-              <div class="icon-box">
-                <img
-                  src="assets/img/technologies/jwt.png"
-                  class="tech"
-                  alt="Italian Trulli"
-                />
-                <h3><a>Jwt</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-6 mt-4">
-              <div class="icon-box">
-                <img
-                  src="assets/img/technologies/firebase.png"
-                  class="tech"
-                  alt="Italian Trulli"
-                />
-                <h3><a>Firebase</a></h3>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-6 mt-4">
-              <div class="icon-box">
-                <img
-                  src="assets/img/technologies/mui.png"
-                  class="tech"
-                  alt="Italian Trulli"
-                />
-                <h3><a>Material UI</a></h3>
-              </div>
+            
+            
             </div>
           </div>
         </div>
@@ -959,6 +938,18 @@
       <!-- End Technologies Section -->
     </main>
     <!-- End #main -->
+
+     <!-- ======= Footer ======= -->
+   <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Agrivo</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="">Team Agrivo</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
     <a
       href="#"
