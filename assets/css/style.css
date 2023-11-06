@@ -115,6 +115,15 @@ h6 {
   background: rgba(3, 201, 136, 0.9);
 }
 
+#header .backButton{
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+#header .backButton:hover{
+ transform: scale(1.2);
+  }
 
 #header.header-scrolled {
   background: rgba(3, 201, 136, 0.9) !important;
@@ -2002,6 +2011,8 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -2087,6 +2098,5 @@ section {
 .description{
 text-align: justify;
 }
-
 
 
